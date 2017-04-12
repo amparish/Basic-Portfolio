@@ -8,47 +8,49 @@
 </head>
 <body>
 
-	<h1>Alex Parish</h1>
+	<header>
+		<h1>Alex Parish</h1>
 
-	<section>
-		<a href="index.html">About</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="contact.html">Contact</a>
-	</section>
-	
-	<section id="content">
+		<div id="links">
+			<a href="index.html">About</a> |
+			<a href="portfolio.html">Portfolio</a> |
+			<a href="contact.html">Contact</a>
+		</div>
+	</header>
+
+	<div id="content">
 		<h2>Contact</h2>
 
-		<hr>
+		<br><hr>
 
 		<form>
 			Name
 			<br>
-			<input type="text" name="name">
+			<input type="text" name="name" class="contact-input">
 			<br>
 			Email
 			<br>
-			<input type="text" name="email">
+			<input type="text" name="email" class="contact-input">
 			<br>
 			Message
 			<br>
-			<input type="text" name="message">
+			<input type="text" name="message" class="contact-input" id="contact-message">
 			<br>
 			<input type="submit" value="Submit">
 		</form>
-	</section>
+	</div>
 
-	<section id="connect">
+	<div id="connect">
 		<h2>Connect</h2>
 
-		<hr>
+		<br><hr>
 
-		<a href="https://www.linkedin.com/in/alex-parish-b6962863/" target="_blank"><img src="assets/images/1491804555_linkedin_circle_color.png" alt="LinkedIn"></a>
+		<a href="https://www.linkedin.com/in/alex-parish-b6962863/" target="_blank"><img src="assets/images/1491804555_linkedin_circle_color.png" alt="LinkedIn" width="85px" height="85px"></a>
 
-		<a href="https://github.com/amparish" target="_blank"><img src="assets/images/1491804542_mark-github.png" alt="GitHub"></a>
+		<a href="https://github.com/amparish" target="_blank"><img src="assets/images/1491804542_mark-github.png" alt="GitHub" width="80px" height="80px"></a>
 
-		<a href="https://stackoverflow.com/users/7623814/amparish" target="_blank"><img src="assets/images/1491804593_stackoverflow.png" alt="Stack Overflow"></a>
-	</section>
+		<a href="https://stackoverflow.com/users/7623814/amparish" target="_blank"><img src="assets/images/1491804593_stackoverflow.png" alt="Stack Overflow" width="80px" height="80px"></a>
+	</div>
 
 	<footer id="footer">© Copyright 2017 Alex Parish</footer>
 </body>

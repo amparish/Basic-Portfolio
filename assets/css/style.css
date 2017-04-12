@@ -7,36 +7,102 @@ body {
 header {
 	background-color: #ffffff;
 	border-color: #cccccc;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
+	border
 }
 
 h1, h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
 }
 
 #content {
 	float: left;
-	width: 800px;
-	border-color: white;
+	width: 650px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
 	padding: 25px;
-	margin: 25px;
+	margin-top: 40px;
+	margin-left: 60px;
 	background-color: #ffffff;
+}
+
+#bio-image {
+	float: left;
+	padding: 15px;
 }
 
 #connect {
 	float: right;
+	width: 270px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	padding: 25px;
+	margin: 50px;
 	background-color: #ffffff;
 }
 
 h1 {
+	width: 250px;
+	padding: 20px 0;
+	margin: 0;
+	margin-left: 100px;
+	margin-bottom: 0;
 	background-color: #4aaaa5;
 	color: #ffffff;
+	font-size: 32px;
+	text-align: center;
+}
+
+#links {
+	float: right;
+	margin-right: 100px;
+	position: relative;
+	bottom: 40px;
+}
+
+#left-image {
+	float: left;
+	padding: 5px;
+}
+
+#right-image {
+	float: right;
+	padding: 5px;
+}
+
+.contact-input {
+	margin: 10px 0;
+	padding: 8px 0;
+	width: 100%;
+}
+
+#contact-message {
+	padding: 50px 0;
 }
 
 h2 {
 	background-color: #ffffff;
 	color: #4aaaa5;
+	font-size: 28px;
 }
 
 footer {
-	background-color: #666666
+	clear: both;
+	position: fixed;
+	bottom: 0;
+    width: 100%;
+	background-color: #666666;
+	color: #ffffff;
+	border-style: solid;
+	border-width: 5px 0px 0px 0px;
+	border-top-color: #4aaaa5;
+	padding: 40px;
+	margin: 0;
+	text-align: center;
+	font-size: 12px;
 }
