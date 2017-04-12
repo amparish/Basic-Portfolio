@@ -26,7 +26,8 @@ h1, h2 {
 	border-color: #cccccc;
 	padding: 20px;
 	margin-top: 40px;
-	margin-left: 60px;
+	margin-left: 100px;
+	margin-bottom: 120px;
 	background-color: #ffffff;
 }
 
@@ -42,7 +43,7 @@ h1, h2 {
 	border-width: 1px;
 	border-color: #cccccc;
 	padding: 25px;
-	margin: 20px;
+	margin-left: 20px;
 	margin-top: 40px;
 	background-color: #ffffff;
 }
@@ -85,7 +86,7 @@ a {
 	padding: 20px;
 	color: white;
 	top: 330px;
-	left: 86px;
+	left: 126px;
 }
 
 #textbox3 {
@@ -95,8 +96,8 @@ a {
 	text-align: center;
 	padding: 20px;
 	color: white;
-	left: 86px;
 	top: 540px;
+	left: 126px;
 }
 
 #textbox5 {
@@ -106,8 +107,8 @@ a {
 	text-align: center;
 	padding: 20px;
 	color: white;
-	left: 86px;
 	top: 750px;
+	left: 126px;
 }
 
 #right-image {
@@ -123,7 +124,7 @@ a {
 	text-align: center;
 	padding: 20px;
 	color: white;
-	left: 426px;
+	left: 466px;
 	top: 330px;
 }
 
@@ -134,7 +135,7 @@ a {
 	text-align: center;
 	padding: 20px;
 	color: white;
-	left: 426px;
+	left: 466px;
 	top: 540px;
 }
 
